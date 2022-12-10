@@ -1,3 +1,9 @@
 // Typography
+@use '../abstracts/' as *;
 
+body, html {
+	font-size: 16px;
+	width: 100%;
+	height: 100%;
+}
 

@@ -13,6 +13,7 @@
 @use		'layout/footer';
 @use 		'layout/navigation';
 
+@use		'components/backgrounds';
 @use		'components/buttons';
 @use		'components/forms';
 @use		'components/tables';
@@ -20,4 +21,3 @@
 @use		'pages/home';
 @use		'pages/about';
 @use		'pages/contact'
-
