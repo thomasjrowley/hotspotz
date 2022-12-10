@@ -5,5 +5,36 @@ body, html {
 	font-size: 16px;
 	width: 100%;
 	height: 100%;
+	font-family: $base-font;
 }
 
+// Colored text
+.txt {
+	&-white {
+		color: $white;
+	}
+	&-midnight {
+		color: $midnight;
+	}
+	&-ocean {
+		color: $ocean;
+	}
+	&-hotpink {
+		color: $hotpink;
+	}
+	&-golden {
+		color: $golden;
+	}
+	&-grey {
+		color: $grey;
+	}
+	&-smoke {
+		color: $smoke;
+	}
+	&-carbon {
+		color: $carbon;
+	}
+}
+h1 {
+	font-weight: 700;
+}
