@@ -1,0 +1,23 @@
+// Main File
+
+@use		'abstracts/variables';
+@use		'abstracts/mixins';
+@use		'abstracts/functions';
+
+@use		'vendors/normalize';
+
+@use		'base/reset';
+@use		'base/typography';
+
+@use 		'layout/header';
+@use		'layout/footer';
+@use 		'layout/navigation';
+
+@use		'components/buttons';
+@use		'components/forms';
+@use		'components/tables';
+
+@use		'pages/home';
+@use		'pages/about';
+@use		'pages/contact'
+
