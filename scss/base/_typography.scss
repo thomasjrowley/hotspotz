@@ -35,10 +35,52 @@ body, html {
 		color: $carbon;
 	}
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4 {
 	font-family: $base-font;
-	font-weight: 700;
+	font-weight: $wt-bold-font;
+}
+h5, h6 {
+	font-family: $base-font;
+	font-weight: $wt-med-font;
 }
 h1 {
-	@include font();
+	@include font($font-size: $h1-sz);
+}
+h2 {
+	@include font($font-size: $h2-sz);
+	&.light {
+		font-weight: $wt-lt-font;
+	}
+}
+h3 {
+	@include font($font-size: $h3-sz);
+	&.light {
+		font-weight: $wt-lt-font;
+	}
+}
+h4 {
+	@include font($font-size: $h4-sz);
+	&.light {
+		font-weight: $wt-lt-font;
+	}
+}
+h5 {
+	@include font($font-size: $h5-sz);
+	&.light {
+		font-weight: $wt-lt-font;
+	}
+}
+h6 {
+	@include font($font-size: $h6-sz);
+	&.light {
+		font-weight: $wt-lt-font;
+	}
+}
+
+// Hyperlinks
+a {
+	@include font($font-color: $white);
+	&:hover {
+		color: $golden-link;
+	}
 }

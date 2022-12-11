@@ -1,1 +1,12 @@
 // Button
+@use '../abstracts/' as *;
+button.btn {
+	&.btn-primary {
+		background-color: $golden !important;
+		border: none;
+		transition: 0.3s all ease-in-out;
+		&:hover {
+			background-color: darken($golden, 10%);
+		}
+	}
+}

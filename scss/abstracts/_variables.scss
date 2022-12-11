@@ -20,3 +20,17 @@ $grad-midhot:					linear-gradient(45deg, rgba(171,51,155,1) 0%, rgba(64,64,121,1
 
 // Typography
 $base-font:						'Poppins', sans-serif;
+$wt-bold-font:					700;
+$wt-med-font:					600;
+$wt-normal-font:				400;
+$wt-lt-font:					200;
+
+$font-scale:					1.250;
+$h6-sz:							calc($base-font-sz * $font-scale);
+$h5-sz:							calc($h6-sz * $font-scale);
+$h4-sz:							calc($h5-sz * $font-scale);
+$h3-sz:							calc($h4-sz * $font-scale);
+$h2-sz:							calc($h3-sz * $font-scale);
+$h1-sz:							calc($h2-sz * $font-scale);
+
+$golden-link:					$golden;

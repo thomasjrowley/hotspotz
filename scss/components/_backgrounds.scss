@@ -4,3 +4,19 @@
 .grad-primary {
 	background: $grad-midhot;
 }
+.bkg {
+	&-white {
+		@include background($white, 1);
+		padding: 3rem 3rem 2rem 3rem;
+		border-radius: 16px;
+		&.seventy-five {
+			@include background($white, .75);
+		}
+		&.fifty {
+			@include background($white, .5);
+		}
+		&.twenty-five {
+			@include background($white, .25);
+		}
+	}
+}
