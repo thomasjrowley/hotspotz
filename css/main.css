@@ -12266,7 +12266,11 @@ a:hover {
 }
 
 .grad-primary {
-  background: linear-gradient(45deg, #ab339b 0%, #404079 59%, #252546 100%);
+  background: linear-gradient(45deg, #ab339b 0%, #404079 59%, #252546 100%) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .bkg-white {
@@ -12295,6 +12299,7 @@ button.btn.btn-primary {
 }
 button.btn.btn-primary:hover {
   background-color: #ce8a0c;
+  transform: scale(1.05);
 }
 
 /*# sourceMappingURL=main.css.map */

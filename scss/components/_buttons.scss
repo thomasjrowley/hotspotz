@@ -7,6 +7,7 @@ button.btn {
 		transition: 0.3s all ease-in-out;
 		&:hover {
 			background-color: darken($golden, 10%);
+			transform: scale(1.05);
 		}
 	}
 }
