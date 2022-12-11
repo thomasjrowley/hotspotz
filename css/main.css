@@ -12302,4 +12302,8 @@ button.btn.btn-primary:hover {
   transform: scale(1.05);
 }
 
+img.box-shadow-001 {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
 /*# sourceMappingURL=main.css.map */
